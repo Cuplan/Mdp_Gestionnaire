@@ -1,0 +1,4 @@
+# Ne jamais versionner les données sensibles
+.secrets/
+*.key
+*.json
