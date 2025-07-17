@@ -1,43 +1,43 @@
 # 🔐 Mdp_Gestionnaire
 
-**Gestionnaire de mots de passe personnel avec interface graphique**, développé en Python avec Tkinter et TTKBootstrap.
+**Personal password manager with a graphical user interface**, built in Python using Tkinter and TTKBootstrap.
 
-Ce projet permet à un utilisateur de générer, sauvegarder et gérer ses mots de passe localement, dans un environnement sécurisé.
+This project allows a user to generate, store, and manage passwords locally in a secure and user-friendly environment.
 
-> 🧪 Projet en développement — phase actuelle : ajout d'une interface complète pour la gestion des identifiants enregistrés.
-
----
-
-## 🎯 Objectifs du projet
-
-- Générer des mots de passe forts aléatoirement
-- Enregistrer les identifiants localement dans un fichier chiffré ou format JSON
-- Permettre la gestion dynamique des entrées (ajout, suppression, édition)
-- Créer une interface utilisateur claire, responsive et esthétique (mode sombre)
-- Séparer les fonctionnalités : login, dashboard, générateur
+> 🧪 Work in progress — currently building the full credential management interface.
 
 ---
 
-## 🛠️ Stack technique
+## 🎯 Project goals
+
+- Generate strong random passwords
+- Save login credentials locally (JSON or encrypted file)
+- Dynamically manage entries (add, delete, edit)
+- Build a clear, responsive GUI (dark mode enabled)
+- Split features between login, dashboard, and generator views
+
+---
+
+## 🛠️ Tech stack
 
 - **Python 3**
-- **Tkinter** + **ttkbootstrap** (thème darkly)
-- **Fichier JSON** pour le stockage local
-- (À venir : chiffrement, hashing des mots de passe)
+- **Tkinter** + **ttkbootstrap** (Darkly theme)
+- **JSON** file for local data storage
+- (Coming soon: encryption, password hashing)
 
 ---
 
-## 📌 Fonctionnalités actuelles
+## 📌 Current features
 
-- ✅ Générateur de mots de passe configurable
-- ✅ Interface graphique avec boutons clairs
-- ✅ Navigation entre les menus (accueil, génération, gestion)
-- ✅ Interface utilisateur connectée à un fichier local
-- 🕒 À venir : système de login sécurisé et affichage dynamique des entrées
+- ✅ Configurable password generator
+- ✅ GUI with clear navigation buttons
+- ✅ Multi-page navigation (home, generator, manager)
+- ✅ Local JSON-based data connection
+- 🕒 Upcoming: secure login system and dynamic credentials viewer
 
 ---
 
-## 📁 Structure du dépôt
+## 📁 Project structure
 
 /Mdp_Gestionnaire
 ├── main.py
@@ -46,21 +46,20 @@ Ce projet permet à un utilisateur de générer, sauvegarder et gérer ses mots 
 ├── data.json
 └── README.md
 
+---
+
+## 🧠 What I’m learning
+
+- How to structure a Python app with a GUI
+- Building multi-page interfaces with Tkinter
+- Reading/writing structured data to JSON files
+- Separating logic layers (UI, logic, data handling)
+- (Soon: security, UI/UX best practices, encryption)
 
 ---
 
-## 🧠 Ce que j'apprends
-
-- Structurer un projet Python avec interface
-- Utiliser Tkinter avec une logique d’interface multi-pages
-- Lire/écrire dans un fichier JSON
-- Séparer les responsabilités (UI, logique, persistance)
-- (Plus tard : sécurité, UI/UX, cryptographie)
-
----
-
-## 📫 Me contacter
+## 📫 Contact
 
 - [Portfolio](https://dylan-johnson-dev.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/dylan-johnson-447681280)
-- Email : johnsondylan14@gmail.com
+- Email: johnsondylan14@gmail.com
